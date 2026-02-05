@@ -101,7 +101,7 @@ func main(){
 	}()
 
 	for data := range ch {
-		fmt.Println(data)
+		fmt.Println(data) //read data from channel 
 	}
 
 
