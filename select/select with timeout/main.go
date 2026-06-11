@@ -38,7 +38,7 @@ func main(){
 	case <-ch2 :
 		fmt.Println("Task 2 is completed")
 	case <- time.After(5 * time.Second) :
-		fmt.Println("No channel is completed")
+		fmt.Println("No channel is completed now")
 	}
 
 	
