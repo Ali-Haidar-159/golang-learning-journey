@@ -13,8 +13,5 @@ func Bank(totalBalance int) func(int,bool)int{
 			balance = balance - amount
 			return balance
 		}
-
 	}
-
-
 }
