@@ -14,13 +14,13 @@ func forGetReq(url string) ([]byte,error){
 		return nil , err
 	}
 	
-	data,err := io.ReadAll(res.Body)
+	data1,err := io.ReadAll(res.Body)
 
 	if(err != nil){
 		return nil , err
 	}
 
-	return data,nil
+	return data1,nil
 
 }
 
