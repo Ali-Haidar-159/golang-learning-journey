@@ -10,10 +10,6 @@ import "github.com/joho/godotenv"
 import "ali.com/api_call/models"
 import "ali.com/api_call/utils"
 
-// others code 
-
-
-
 // main function 
 
 const URL = "https://jsonplaceholder.typicode.com/users"
@@ -49,7 +45,6 @@ func main(){
 	}
 
 	json.Unmarshal(resBody,&user)
-
 	utils.Display(&user)
 
 }
